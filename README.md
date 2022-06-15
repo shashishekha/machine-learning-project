@@ -13,4 +13,10 @@ conda activate venv
 
 ```
 pip install -r requirements.txt
+```
+To check remote url
+
+```
+git remote -v
+```
 

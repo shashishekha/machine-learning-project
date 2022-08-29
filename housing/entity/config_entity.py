@@ -5,6 +5,11 @@ DataIngestionConfig = namedtuple("DataIngestionConfig",["dataset_download_url","
 
 DataValidationConfig = namedtuple("DataValidationConfig",["schema_file_path"])
 
+DataTransformationConfig = namedtuple("DataTransformationConfig", ["add_bedroom_per_room",
+                                                                   "transformed_train_dir","transformed_Test_dir","preprocessed_object_file_path"])
+
 
 ModelTrainingConfig = namedtuple("ModelTrainerConfig",["trained_model_file_path","base_accuracy"])
 ModelEvaluationConfig = namedtuple("ModelEvaluationConfig", ["model_evaluation_file_path","time_stamp"])
+
+ModelPusherConfig = namedtuple("ModelPusherConfig", ["export_dir_path"])

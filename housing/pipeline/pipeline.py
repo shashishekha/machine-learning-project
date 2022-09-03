@@ -209,4 +209,4 @@ class Pipeline(Thread):
             else:
                 return pd.DataFrame()
         except Exception as e:
-            raise HousingException(e, sys) from 
+            raise HousingException(e, sys) from e

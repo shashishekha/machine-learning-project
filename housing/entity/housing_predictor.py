@@ -85,4 +85,4 @@ class HousingPredictor:
             median_house_value = model.predict(X)
             return median_house_value
         except Exception as e:
-            raise HousingException(e, sys) from 
+            raise HousingException(e, sys) from e

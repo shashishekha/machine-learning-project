@@ -56,6 +56,14 @@ Install ipynbkernel
 
 ```
 pip install ipykernel
+```
+
+
+Data Drift:
+When your dataset stats gets changes we call it as data drift
+
+
+14,15,
 
 
 
